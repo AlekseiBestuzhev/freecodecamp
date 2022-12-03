@@ -37,3 +37,7 @@ body {
 	background-color: rgb(233, 233, 233);
 	font-family: Roboto;
 }
+
+.blue-text {
+	color: blue;
+}
