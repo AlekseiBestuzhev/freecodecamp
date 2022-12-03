@@ -37,6 +37,9 @@ body {
 	background-color: rgb(233, 233, 233);
 	font-family: Roboto;
 }
+p.txt {
+color: green;
+}
 
 .blue-text {
 	color: blue;
