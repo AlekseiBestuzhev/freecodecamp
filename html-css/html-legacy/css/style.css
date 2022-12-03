@@ -30,3 +30,7 @@ p {
 [type='checkbox'] {
 	margin: 10px 0px 15px;
 }
+
+body {
+	background-color: rgb(233, 233, 233);
+}
