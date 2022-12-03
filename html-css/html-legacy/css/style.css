@@ -47,5 +47,5 @@ color: green;
 }
 
 .blue-text {
-	color: blue;
+	color: blue !important;
 }
