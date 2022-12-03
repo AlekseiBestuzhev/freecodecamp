@@ -25,3 +25,7 @@ p {
 .silver-background {
 	background-color: silver;
 }
+
+[type='checkbox'] {
+	margin: 10px 0px 15px;
+}
