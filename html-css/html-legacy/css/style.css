@@ -33,10 +33,15 @@ p {
 	margin: 10px 0px 15px;
 }
 
+#orange-text {
+	color: orange;
+}
+
 body {
 	background-color: rgb(233, 233, 233);
 	font-family: Roboto;
 }
+
 p.txt {
 color: green;
 }
