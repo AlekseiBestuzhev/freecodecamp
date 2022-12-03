@@ -26,7 +26,8 @@ p {
 
 .silver-background {
 	background-color: silver;
-	margin-bottom: 1em;
+	padding: 10px 30px;
+	margin-bottom: 15px;
 }
 
 [type='checkbox'] {
@@ -40,16 +41,10 @@ p {
 body {
 	background-color: #ffffff;
 	font-family: Roboto;
+	padding: 0 30px;
 }
 
-p.txt {
-color: green;
-}
-
-.blue-text {
-	color: #1E90FF !important;
-}
-
-a {
-	color: rgb(188, 42, 42);
+#cat-photo-form {
+	padding: 10px 30px;
+	background-color: burlywood;
 }
