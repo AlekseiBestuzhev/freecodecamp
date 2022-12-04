@@ -6,3 +6,4 @@ let a;
 a = 7;
 let b;
 b = a;
+let c = 9;
