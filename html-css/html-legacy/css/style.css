@@ -48,3 +48,8 @@ body {
 	padding: 10px 30px;
 	background-color: burlywood;
 }
+
+.lorem-text {
+	padding: 0 30px;
+	text-align: justify;
+}
