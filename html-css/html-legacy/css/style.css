@@ -47,6 +47,8 @@ body {
 #cat-photo-form {
 	padding: 10px 30px;
 	background-color: burlywood;
+	width: 600px;
+	height: 100px;
 }
 
 .lorem-text {
