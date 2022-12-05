@@ -7,3 +7,5 @@ a = 7;
 let b;
 b = a;
 let c = 9;
+var myFirstName = 'Alex';
+var myLastName = 'Alex';
