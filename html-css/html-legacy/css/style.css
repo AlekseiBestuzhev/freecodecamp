@@ -12,8 +12,11 @@ h2 {
 	font-family: Lobster, monospace;
 }
 
-p {
+.blue-text{
 	margin-top: 100px;
+}
+
+p {
 	font-size: 16px;
 	font-family: monospace;
 }
@@ -36,7 +39,17 @@ p {
 	background-color: rgba(192, 192, 192, 0.3210);
 	padding: 10px 30px;
 	margin-bottom: 15px;
-	position: relative;
+	height: 130px;
+}
+
+.list-one{
+width: 50%;
+float: left;
+}
+
+.list-two {
+	width: 50%;
+	float: right;
 }
 
 [type='checkbox'] {
@@ -77,12 +90,6 @@ a:hover {
 hr {
 	position: relative;
 	top: 10px;
-}
-
-.list-two {
-position: absolute;
-left: 250px;
-top: 10px;
 }
 
 .lorem-block-second {
