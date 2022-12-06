@@ -32,6 +32,7 @@ p {
 	background-color: rgba(192, 192, 192, 0.3210);
 	padding: 10px 30px;
 	margin-bottom: 15px;
+	position: relative;
 }
 
 [type='checkbox'] {
@@ -72,4 +73,10 @@ a:hover {
 hr {
 	position: relative;
 	top: 10px;
+}
+
+.list-two {
+position: absolute;
+left: 250px;
+top: 10px;
 }
