@@ -68,3 +68,8 @@ a {
 a:hover {
 	color: orangered;
 }
+
+hr {
+	position: relative;
+	top: 10px;
+}
