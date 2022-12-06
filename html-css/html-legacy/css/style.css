@@ -37,7 +37,7 @@ p {
 }
 
 .silver-background {
-	background-color: rgba(192, 192, 192, 0.3210);
+	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 	padding: 10px 30px;
 	margin: 0 auto 15px;
 	height: 130px;
