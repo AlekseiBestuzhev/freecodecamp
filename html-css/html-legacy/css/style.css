@@ -20,6 +20,8 @@ p {
 	border-style: solid;
 	border-radius: 50%;
 	margin-bottom: 20px;
+	position: relative;
+	left: 20px;
 }
 
 .smaller-image {
