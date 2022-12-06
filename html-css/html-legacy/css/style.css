@@ -36,10 +36,6 @@ p {
 	margin: 10px 0px 15px;
 }
 
-#orange-text {
-	color: orange;
-}
-
 body {
 	background-color: #ffffff;
 	font-family: Roboto;
@@ -61,4 +57,12 @@ body {
 
 #thumbnail {
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+a {
+	color: cornflowerblue;
+}
+
+a:hover {
+	color: orangered;
 }
