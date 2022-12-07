@@ -47,3 +47,14 @@ console.log(myStr25);
 
 const myStr26 = '<a href="http://www.example.com" target="_blank">Link</a>';
 console.log(myStr26);
+
+// \'	одинарная кавычка
+// \"	двойная кавычка
+// \\	обратная косая черта
+// \n	новая строка
+// \t	табуляция
+// \r	возврат каретки
+// \b	граница слова
+// \f	подача формы
+const myStr27 = "FirstLine\n\t\\SecondLine\nThirdLine";
+console.log(myStr27);
