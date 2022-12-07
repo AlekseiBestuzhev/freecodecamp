@@ -32,3 +32,10 @@ let b23 = 5;
 a23 *= 3;
 b23 *= 5;
 console.log(a23, b23); // 6 25
+
+
+let a24 = 10;
+let b24 = 45;
+a24 /= 2;
+b24 /= 5;
+console.log(a24, b24); // 5 9
