@@ -67,3 +67,8 @@ console.log(myStr28);
 let myStr29 = 'This is the first sentence. ';
 myStr29 += 'This is the second sentence.';
 console.log(myStr29);
+
+
+const myName30 = "Alex";
+const myStr30 = "My name is " + myName30 + " and I am well!";
+console.log(myStr30);
