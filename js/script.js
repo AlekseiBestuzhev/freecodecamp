@@ -62,3 +62,8 @@ console.log(myStr27);
 
 const myStr28 = "This is the start." + " This is the end.";
 console.log(myStr28);
+
+
+let myStr29 = 'This is the first sentence. ';
+myStr29 += 'This is the second sentence.';
+console.log(myStr29);
