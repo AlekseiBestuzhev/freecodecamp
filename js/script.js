@@ -58,3 +58,7 @@ console.log(myStr26);
 // \f	подача формы
 const myStr27 = "FirstLine\n\t\\SecondLine\nThirdLine";
 console.log(myStr27);
+
+
+const myStr28 = "This is the start." + " This is the end.";
+console.log(myStr28);
