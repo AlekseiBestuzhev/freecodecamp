@@ -22,8 +22,13 @@ a comment */
 
 let a = 7;
 let b = 4;
-
 a += 3;
 b -= 1;
+console.log(a, b); // 10 3
 
-console.log(a, b);
+
+let a23 = 2;
+let b23 = 5;
+a23 *= 3;
+b23 *= 5;
+console.log(a23, b23); // 6 25
