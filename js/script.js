@@ -39,3 +39,7 @@ let b24 = 45;
 a24 /= 2;
 b24 /= 5;
 console.log(a24, b24); // 5 9
+
+
+const myStr25 = "I am a \"double quoted\" string inside \"double quotes\".";
+console.log(myStr25);
