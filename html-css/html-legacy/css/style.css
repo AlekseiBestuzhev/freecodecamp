@@ -26,6 +26,24 @@ p {
 	margin-bottom: 20px;
 	position: relative;
 	left: 20px;
+	animation-name: move;
+	animation-duration: 2000ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes move {
+	25% {
+		left: 40px;
+	}
+	50% {
+		left: 20px;
+	}
+	75% {
+		left: 40px;
+	}
+	100% {
+		left: 20px;
+	}
 }
 
 .smaller-image {
