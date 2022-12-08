@@ -13,10 +13,6 @@ h2 {
 	font-family: Lobster, monospace;
 }
 
-.blue-text{
-	margin-top: 100px;
-}
-
 p {
 	font-size: 16px;
 	font-family: monospace;
@@ -61,7 +57,7 @@ float: left;
 body {
 background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 	font-family: Roboto;
-	padding: 0 30px;
+	padding: 100px 30px 0;
 }
 
 #cat-photo-form {
@@ -96,4 +92,14 @@ hr {
 
 .lorem-block-second {
 	padding: 20px 50px;
+}
+
+.but {
+	background-color: rgb(61, 61, 216);
+	padding: 10px 20px;
+	font-size: 25px;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	border: inherit;
 }
