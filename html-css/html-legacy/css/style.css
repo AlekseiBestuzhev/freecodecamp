@@ -34,12 +34,15 @@ p {
 @keyframes move {
 	25% {
 		left: 40px;
+		opacity: 0.5;
 	}
 	50% {
 		left: 20px;
+		opacity: 1;
 	}
 	75% {
 		left: 40px;
+		opacity: 0.5;
 	}
 	100% {
 		left: 20px;
