@@ -78,3 +78,9 @@ const someAdjective31 = "so long";
 let myStr31 = "Learning to code is ";
 myStr31 += someAdjective31;
 console.log(myStr31);
+
+
+let lastNameLength32 = 0;
+const lastName32 = "Lovelace";
+lastNameLength32 = lastName32.length;
+console.log(lastNameLength32);
