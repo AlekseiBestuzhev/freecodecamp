@@ -91,5 +91,11 @@ const lastName33 = "Lovelace";
 firstLetterOfLastName33 = lastName33[0];
 console.log(firstLetterOfLastName33);
 
+
 let myStr34 = "Jello World";
 myStr34 = "Hello World";
+
+
+const lastName35 = "Lovelace";
+const thirdLetterOfLastName35 = lastName35[2];
+console.log(thirdLetterOfLastName35);
