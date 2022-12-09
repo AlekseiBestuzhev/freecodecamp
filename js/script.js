@@ -99,3 +99,8 @@ myStr34 = "Hello World";
 const lastName35 = "Lovelace";
 const thirdLetterOfLastName35 = lastName35[2];
 console.log(thirdLetterOfLastName35);
+
+
+const lastName36 = "Lovelace";
+const lastLetterOfLastName36 = lastName36[lastName36.length - 1];
+console.log(lastLetterOfLastName36);
