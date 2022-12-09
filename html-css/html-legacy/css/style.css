@@ -71,7 +71,7 @@ p {
 .silver-background {
 	background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
 	padding: 10px 30px;
-	margin: 0 auto 15px;
+	margin: -120px auto 15px;
 	height: 130px;
 	max-width: 700px;
 }
@@ -150,4 +150,8 @@ hr {
 	100% {
 	background-color: #4791d0;
 	}
+}
+
+audio {
+	margin-bottom: 15px;
 }
