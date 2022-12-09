@@ -72,3 +72,9 @@ console.log(myStr29);
 const myName30 = "Alex";
 const myStr30 = "My name is " + myName30 + " and I am well!";
 console.log(myStr30);
+
+
+const someAdjective31 = "so long";
+let myStr31 = "Learning to code is ";
+myStr31 += someAdjective31;
+console.log(myStr31);
