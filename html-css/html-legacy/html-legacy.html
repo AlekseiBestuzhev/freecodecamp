@@ -44,10 +44,15 @@
 		</div>
 
 		<form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
-			<input type="radio" id="indoor" name="indoor-outdoor" checked>
-			<label for="indoor"> Indoor</label>
-			<input type="radio" id="outdoor" name="indoor-outdoor">
-			<label for="outdoor"> Outdoor</label><br>
+			<fieldset>
+				<!-- fieldset - оболочка для группы инпутов
+					legend - заголовок этой группы-->
+				<legend>Where is your cat living?</legend>
+				<input type="radio" id="indoor" name="indoor-outdoor" checked>
+				<label for="indoor"> Indoor</label>
+				<input type="radio" id="outdoor" name="indoor-outdoor">
+				<label for="outdoor"> Outdoor</label>
+			</fieldset>
 			<label><input type="checkbox" name="personality"> Loving</label>
 			<label><input type="checkbox" name="personality"> Lazy</label>
 			<label><input type="checkbox" name="personality"> Energetic</label><br>
