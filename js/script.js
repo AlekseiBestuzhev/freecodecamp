@@ -109,3 +109,11 @@ console.log(lastLetterOfLastName36);
 const lastName37 = "Lovelace";
 const secondToLastLetterOfLastName37 = lastName37[lastName37.length - 2];
 console.log(secondToLastLetterOfLastName37);
+
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+const wordBlanks = "The " + myAdjective + ' ' + myNoun + ' ' + myVerb + " so " + myAdverb;
+console.log(wordBlanks);
