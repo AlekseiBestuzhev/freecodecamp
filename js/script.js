@@ -84,3 +84,9 @@ let lastNameLength32 = 0;
 const lastName32 = "Lovelace";
 lastNameLength32 = lastName32.length;
 console.log(lastNameLength32);
+
+
+let firstLetterOfLastName33 = "";
+const lastName33 = "Lovelace";
+firstLetterOfLastName33 = lastName33[0];
+console.log(firstLetterOfLastName33);
