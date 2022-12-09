@@ -117,3 +117,7 @@ const myVerb = "ran";
 const myAdverb = "quickly";
 const wordBlanks = "The " + myAdjective + ' ' + myNoun + ' ' + myVerb + " so " + myAdverb;
 console.log(wordBlanks);
+
+
+const myArray39 = ['hello', 500];
+console.log(myArray39);
