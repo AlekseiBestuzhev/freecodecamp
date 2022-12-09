@@ -44,9 +44,11 @@
 		</div>
 
 		<form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
-			<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-			<label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-			<label><input type="checkbox" name="personality" checked> Loving</label>
+			<input type="radio" id="indoor" name="indoor-outdoor" checked>
+			<label for="indoor"> Indoor</label>
+			<input type="radio" id="outdoor" name="indoor-outdoor">
+			<label for="outdoor"> Outdoor</label><br>
+			<label><input type="checkbox" name="personality"> Loving</label>
 			<label><input type="checkbox" name="personality"> Lazy</label>
 			<label><input type="checkbox" name="personality"> Energetic</label><br>
 			<input type="text" placeholder="cat photo URL" required>
