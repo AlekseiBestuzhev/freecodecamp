@@ -8,9 +8,9 @@
 	left: 30px;
 	z-index: 2;
    animation-name: beat;
-   animation-duration: 1s;
+   animation-duration: 4s;
 animation-iteration-count: infinite;
-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+animation-timing-function: linear;
 }
 
 @keyframes beat {
@@ -48,7 +48,7 @@ p {
 @keyframes move {
 	25% {
 		left: 40px;
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 	50% {
 		left: 20px;
@@ -56,7 +56,7 @@ p {
 	}
 	75% {
 		left: 40px;
-		opacity: 0.5;
+		opacity: 0.6;
 	}
 	100% {
 		left: 20px;
