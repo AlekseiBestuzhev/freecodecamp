@@ -121,3 +121,6 @@ console.log(wordBlanks);
 
 const myArray39 = ['hello', 500];
 console.log(myArray39);
+
+
+const myArray = [['I\'m inside', 1], ['I\'m also inside', 2]];
