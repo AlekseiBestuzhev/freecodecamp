@@ -104,3 +104,8 @@ console.log(thirdLetterOfLastName35);
 const lastName36 = "Lovelace";
 const lastLetterOfLastName36 = lastName36[lastName36.length - 1];
 console.log(lastLetterOfLastName36);
+
+
+const lastName37 = "Lovelace";
+const secondToLastLetterOfLastName37 = lastName37[lastName37.length - 2];
+console.log(secondToLastLetterOfLastName37);
