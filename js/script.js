@@ -176,3 +176,9 @@ const myList48 = [
 	["Eggs", 10],
 	["Sugar", 1],
 ];
+
+
+function reusableFunction() {
+	console.log("Hi World");
+}
+reusableFunction();
