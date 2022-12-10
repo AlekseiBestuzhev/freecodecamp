@@ -161,3 +161,9 @@ const myArray46 = [7, 500, ["John", 23], ["dog", 3]];
 const removedFromMyArray46 = myArray46.shift();
 console.log(removedFromMyArray46);
 console.log(myArray46);
+
+
+const myArray47 = [["John", 23], ["dog", 3]];
+myArray47.shift();
+myArray47.unshift(["Paul", 35]);
+console.log(myArray47);
