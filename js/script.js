@@ -149,3 +149,9 @@ console.log(myData43);
 const myArray44 = [["John", 23], ["cat", 2]];
 myArray44.push(["dog", 3]);
 console.log(myArray44);
+
+
+const myArray45 = [["John", 23], ["cat", 2], 2, 78];
+const removedFromMyArray45 = myArray45.pop();
+console.log(removedFromMyArray45);
+console.log(myArray45);
