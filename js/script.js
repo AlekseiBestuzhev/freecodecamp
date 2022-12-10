@@ -134,3 +134,13 @@ console.log(myData41);
 const myArray42 = [18, 64, 99];
 myArray42[0] = 45;
 console.log(myArray42);
+
+
+const myArray43 = [
+	[1, 2, 3],
+	[4, 5, 6],
+	[7, 8, 9],
+	[[10, 11, 12], 13, 14],
+];
+const myData43 = myArray43[2][1];
+console.log(myData43);
