@@ -129,3 +129,8 @@ const myArray = [['I\'m inside', 1], ['I\'m also inside', 2]];
 const myArray41 = [50, 60, 70];
 const myData41 = myArray41[0];
 console.log(myData41);
+
+
+const myArray42 = [18, 64, 99];
+myArray42[0] = 45;
+console.log(myArray42);
