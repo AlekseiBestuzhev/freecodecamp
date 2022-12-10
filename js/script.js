@@ -182,3 +182,10 @@ function reusableFunction() {
 	console.log("Hi World");
 }
 reusableFunction();
+
+
+function functionWithArgs(a, b) {
+	let c = a + b;
+	console.log(c);
+}
+functionWithArgs(3, 7);
