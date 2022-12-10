@@ -167,3 +167,12 @@ const myArray47 = [["John", 23], ["dog", 3]];
 myArray47.shift();
 myArray47.unshift(["Paul", 35]);
 console.log(myArray47);
+
+
+const myList48 = [
+	["Chocolate", 3],
+	["Milk", 2],
+	["Flour", 1],
+	["Eggs", 10],
+	["Sugar", 1],
+];
