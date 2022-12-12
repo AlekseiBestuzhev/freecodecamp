@@ -251,3 +251,13 @@ function trueOrFalse59(wasThatTrue) {
 }
 const a59 = trueOrFalse59(false);
 console.log(a59);
+
+
+function testEqual60(val) {
+	if (val == 12) { // Change this line
+		return "Equal";
+	}
+	return "Not Equal";
+}
+a60 = testEqual60(10);
+console.log(a60);
