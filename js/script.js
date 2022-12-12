@@ -235,3 +235,9 @@ let testArr = [1, 2, 3, 4, 5];
 console.log("Before: " + JSON.stringify(testArr));
 console.log(nextInLine57(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
+
+
+function welcomeToBooleans58() {
+	return true;
+}
+console.log(welcomeToBooleans58());
