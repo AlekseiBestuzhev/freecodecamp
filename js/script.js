@@ -224,3 +224,14 @@ function processArg56(num) {
 }
 processed56 = processArg56(7);
 console.log(processed56);
+
+
+function nextInLine57(arr, item) {
+	arr.push(item);
+	let lost = arr.shift();
+	return lost;
+}
+let testArr = [1, 2, 3, 4, 5];
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine57(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
