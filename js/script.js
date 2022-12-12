@@ -189,3 +189,12 @@ function functionWithArgs(a, b) {
 	console.log(c);
 }
 functionWithArgs(3, 7);
+
+
+function timesFive51(num) {
+	return num * 5;
+}
+const a51 = timesFive51(5);
+console.log(a51);
+
+
