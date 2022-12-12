@@ -241,3 +241,13 @@ function welcomeToBooleans58() {
 	return true;
 }
 console.log(welcomeToBooleans58());
+
+
+function trueOrFalse59(wasThatTrue) {
+	if (wasThatTrue) {
+		return "Yes, that was true";
+	}
+	return "No, that was false";
+}
+const a59 = trueOrFalse59(false);
+console.log(a59);
