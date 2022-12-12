@@ -198,3 +198,9 @@ const a51 = timesFive51(5);
 console.log(a51);
 
 
+const outerWear = "T-Shirt";
+function myOutfit54() {
+	const outerWear54 = 'sweater';
+	return outerWear54;
+}
+myOutfit54();
