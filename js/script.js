@@ -204,3 +204,15 @@ function myOutfit54() {
 	return outerWear54;
 }
 myOutfit54();
+
+
+let sum55 = 0;
+function addThree55() {
+	sum55 = sum55 + 3;
+}
+function addFive55() {
+	sum55 = sum55 + 5;
+}
+addThree55();
+addFive55();
+console.log(sum55);
