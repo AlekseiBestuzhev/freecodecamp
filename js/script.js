@@ -216,3 +216,11 @@ function addFive55() {
 addThree55();
 addFive55();
 console.log(sum55);
+
+
+let processed56 = 0;
+function processArg56(num) {
+	return (num + 3) / 5;
+}
+processed56 = processArg56(7);
+console.log(processed56);
