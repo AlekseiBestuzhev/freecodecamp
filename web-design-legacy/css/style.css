@@ -162,3 +162,9 @@ label {
 #indoor {
 	margin-left: 0px;
 }
+
+@media (max-width:1445px) {
+	.silver-background {
+		margin: 0;
+	}
+}
