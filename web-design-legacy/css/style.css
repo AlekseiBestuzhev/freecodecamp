@@ -107,9 +107,7 @@ background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 }
 
 .lorem-text {
-	padding: 0 30px;
-	text-align: justify;
-	line-height: 25px;
+
 }
 
 #thumbnail {
@@ -130,7 +128,7 @@ hr {
 }
 
 .lorem-block-second {
-	padding: 20px 50px;
+	width: 50vmin;
 }
 
 .but {
@@ -171,4 +169,7 @@ label {
 	.silver-background {
 		margin: 0;
 	}
+}
+.lorem-block {
+	width: 70vw;
 }
