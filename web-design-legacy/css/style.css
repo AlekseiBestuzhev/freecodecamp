@@ -32,7 +32,7 @@ p {
 }
 
 .thick-green-border {
-	border-color: green;
+	border-color: rgb(115, 188, 115);
 	border-width: 10px;
 	border-style: solid;
 	border-radius: 50%;
@@ -43,6 +43,10 @@ p {
 	animation-duration: 2000ms;
 	animation-fill-mode: forwards;
 	animation-iteration-count: infinite;
+}
+
+.img-body {
+	max-width: 150px;
 }
 
 @keyframes move {
@@ -65,7 +69,8 @@ p {
 
 
 .smaller-image {
-	width: 100px;
+	width: 100%;
+	height: auto;
 }
 
 .silver-background {
