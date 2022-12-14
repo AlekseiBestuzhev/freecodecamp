@@ -271,3 +271,13 @@ function testStrict61(val) {
 }
 const a61 = testStrict61(10);
 console.log(a61);
+
+
+function compareEquality62(a, b) {
+	if (a === b) { // Change this line
+		return "Equal";
+	}
+	return "Not Equal";
+}
+const a62 = compareEquality62(10, "10");
+console.log(a62);
