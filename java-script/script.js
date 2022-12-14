@@ -353,3 +353,14 @@ function testLessOrEqual68(val) {
 }
 const a68 = testLessOrEqual68(10);
 console.log(a68);
+
+
+function testLogicalAnd69(val) {
+	// Only change code below this line
+	if (val <= 50 && val >= 25) {
+		return "Yes";
+	}
+	return "No";
+}
+const a69 = testLogicalAnd69(10);
+console.log(a69);
