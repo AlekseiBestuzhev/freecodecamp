@@ -293,11 +293,26 @@ const a63 = testNotEqual63(99);
 console.log(a63);
 
 
-function testStrictNotEqual(val) {
+function testStrictNotEqual64(val) {
 	if (val !== 17) { // Change this line
 		return "Not Equal";
 	}
 	return "Equal";
 }
-const a64 = testStrictNotEqual(10);
+const a64 = testStrictNotEqual64(10);
 console.log(a64);
+
+
+function testGreaterThan65(val) {
+	if (val > 100) {  // Change this line
+		return "Over 100";
+	}
+
+	if (val > 10) {  // Change this line
+		return "Over 10";
+	}
+
+	return "10 or Under";
+}
+const a65 = testGreaterThan65(120);
+console.log(a65);
