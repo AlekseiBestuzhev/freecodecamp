@@ -291,3 +291,13 @@ function testNotEqual63(val) {
 }
 const a63 = testNotEqual63(99);
 console.log(a63);
+
+
+function testStrictNotEqual(val) {
+	if (val !== 17) { // Change this line
+		return "Not Equal";
+	}
+	return "Equal";
+}
+const a64 = testStrictNotEqual(10);
+console.log(a64);
