@@ -281,3 +281,13 @@ function compareEquality62(a, b) {
 }
 const a62 = compareEquality62(10, "10");
 console.log(a62);
+
+
+function testNotEqual63(val) {
+	if (val != 99) { // Change this line
+		return "Not Equal";
+	}
+	return "Equal";
+}
+const a63 = testNotEqual63(99);
+console.log(a63);
