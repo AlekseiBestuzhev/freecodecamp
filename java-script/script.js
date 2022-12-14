@@ -356,7 +356,6 @@ console.log(a68);
 
 
 function testLogicalAnd69(val) {
-	// Only change code below this line
 	if (val <= 50 && val >= 25) {
 		return "Yes";
 	}
@@ -364,3 +363,13 @@ function testLogicalAnd69(val) {
 }
 const a69 = testLogicalAnd69(10);
 console.log(a69);
+
+
+function testLogicalOr70(val) {
+	if (val < 10 || val > 20) {
+		return "Outside";
+	}
+	return "Inside";
+}
+const a70 = testLogicalOr70(15);
+console.log(a70);
