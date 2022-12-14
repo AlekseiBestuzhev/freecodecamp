@@ -340,3 +340,16 @@ function testLessThan67(val) {
 }
 const a67 = testLessThan67(10);
 console.log(a67);
+
+
+function testLessOrEqual68(val) {
+	if (val <= 12) {  // Change this line
+		return "Smaller Than or Equal to 12";
+	}
+	if (val <= 24) {  // Change this line
+		return "Smaller Than or Equal to 24";
+	}
+	return "More Than 24";
+}
+const a68 = testLessOrEqual68(10);
+console.log(a68);
