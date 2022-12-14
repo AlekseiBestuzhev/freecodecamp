@@ -307,12 +307,23 @@ function testGreaterThan65(val) {
 	if (val > 100) {  // Change this line
 		return "Over 100";
 	}
-
 	if (val > 10) {  // Change this line
 		return "Over 10";
 	}
-
 	return "10 or Under";
 }
 const a65 = testGreaterThan65(120);
 console.log(a65);
+
+
+function testGreaterOrEqual66(val) {
+	if (val >= 20) {  // Change this line
+		return "20 or Over";
+	}
+	if (val >= 10) {  // Change this line
+		return "10 or Over";
+	}
+	return "Less than 10";
+}
+const a66 = testGreaterOrEqual66(10);
+console.log(a66);
