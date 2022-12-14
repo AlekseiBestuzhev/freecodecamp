@@ -327,3 +327,16 @@ function testGreaterOrEqual66(val) {
 }
 const a66 = testGreaterOrEqual66(10);
 console.log(a66);
+
+
+function testLessThan67(val) {
+	if (val < 25) {  // Change this line
+		return "Under 25";
+	}
+	if (val < 55) {  // Change this line
+		return "Under 55";
+	}
+	return "55 or Over";
+}
+const a67 = testLessThan67(10);
+console.log(a67);
