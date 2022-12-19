@@ -45,9 +45,6 @@ p {
 	animation-iteration-count: infinite;
 }
 
-.img-body {
-}
-
 @keyframes move {
 	25% {
 		left: 40px;
@@ -104,10 +101,6 @@ background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
 	padding: 10px 30px;
 	background-color: burlywood;
 	width: 600px;
-}
-
-.lorem-text {
-
 }
 
 #thumbnail {
@@ -193,6 +186,7 @@ label {
 .d5 {
 	background:PaleGreen;
 	grid-column: 2 / 4;
+	grid-row: 2 / 4;
 }
 
 .container {
