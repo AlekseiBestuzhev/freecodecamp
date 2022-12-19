@@ -200,4 +200,8 @@ label {
 	grid-gap: 10px;
 	justify-items: center;
 	align-items: end;
+	grid-template-areas:
+      "header header header"
+      "advert content content"
+      "footer footer footer";
 }
