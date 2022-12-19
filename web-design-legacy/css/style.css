@@ -188,7 +188,6 @@ label {
 .d5 {
 	background:PaleGreen;
 	grid-column: 2 / 4;
-	grid-row: 2 / 4;
 }
 
 .container {
@@ -199,4 +198,5 @@ label {
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
 	grid-gap: 10px;
+	justify-items: center;
 }
