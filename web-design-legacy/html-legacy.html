@@ -5,90 +5,24 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Legacy web design</title>
+	<title>Tribute Page</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
 <body>
+	<!-- На вашей трибьют-странице должен быть mainэлемент с соответствующим значением id, mainкоторый содержит все остальные элементы .
+Вы должны увидеть элемент со значением id, titleкоторый содержит строку (например, текст), описывающую тему страницы дани (например, "Доктор Норман Борлоуг").
+Вы должны увидеть либо a, figureлибо divэлемент со idзначениемimg-div
+Внутри #img-divэлемента вы должны увидеть imgэлемент с соответствующимid="image"
+Внутри #img-divэлемента вы должны увидеть элемент с соответствующим элементом, id="img-caption"который содержит текстовое содержимое, описывающее изображение, показанное на#img-div
+Вы должны увидеть элемент с соответствующим id="tribute-info", который содержит текстовое содержимое, описывающее тему страницы трибьюта.
+Вы должны увидеть aэлемент с соответствующим id="tribute-link", который ссылается на внешний сайт, который содержит дополнительную информацию о теме страницы трибьюта. СОВЕТ: вы должны присвоить своему элементу атрибут targetи установить его, чтобы _blankваша ссылка открывалась в новой вкладке.
+Вы #imageдолжны использовать max-widthи heightсвойства для быстрого изменения размера относительно ширины его родительского элемента, не превышая его исходный размер.
+Ваш imgэлемент должен быть центрирован внутри своего родительского элемента
+Выполните пользовательские истории и пройдите все тесты ниже, чтобы завершить этот проект. Придайте ему свой собственный стиль. Удачного кодирования!
 
-	<header>
-		<h2 class="red-text">CatPhotoApp</h2>
-		<p class='blue-text'>Click here to view more <a href="https://ru.freepik.com/photos/cat">cat
-				photos</a>.</p>
-	</header>
-	<main>
-		<div class="img-body">
-			<a href="#" tabindex="-1">
-				<img class="smaller-image thick-green-border" id='thumbnail' style="width: 200px; height: 200px"
-					src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="">
-			</a>
-		</div>
-		<audio src="audio/voice.mp3" controls></audio> <br>
-		<button class="but">Learn More</button>
-		<div class="silver-background">
-			<div class="list-one">
-				<p>Things cats love:</p>
-				<ul>
-					<li>cat nip</li>
-					<li>laser pointers</li>
-					<li>lasagna</li>
-				</ul>
-			</div>
-			<div class="list-two">
-				<p>Top 3 things cats hate:</p>
-				<ol>
-					<li>flea treatment</li>
-					<li>thunder</li>
-					<li>other cats</li>
-				</ol>
-			</div>
-		</div>
+Примечание. Обязательно добавьте <link rel="stylesheet" href="styles.css">свой HTML-код, чтобы связать свою таблицу стилей и применить свой CSS . -->
 
-		<form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
-			<fieldset>
-				<!-- fieldset - оболочка для группы инпутов
-					legend - заголовок этой группы-->
-				<legend>Where is your cat living?</legend>
-				<input type="radio" id="indoor" name="indoor-outdoor" checked>
-				<label for="indoor"> Indoor</label>
-				<input type="radio" id="outdoor" name="indoor-outdoor">
-				<label for="outdoor"> Outdoor</label>
-			</fieldset>
-			<label><input type="checkbox" name="personality"> Loving</label>
-			<label><input type="checkbox" name="personality"> Lazy</label>
-			<label><input type="checkbox" name="personality"> Energetic</label><br>
-			<input type="text" placeholder="cat photo URL" required>
-			<button type="submit">Submit</button>
-		</form>
-		<article class="lorem-block">
-			<hr>
-			<em>
-				<p class="lorem-text"> <strong>Lorem ipsum</strong> <u>dolor</u> sit amet consectetur adipisicing elit.
-					Remcommodivoluptates undedeserunt ab debitis odio dolore, exercitationem laboriosam ut incidunt iure quia
-					a odit tempora qui,voluptatumplaceat blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Vel officia temporibus culpaut!Molestiae recusandae dolorum vitae quae unde soluta, repellendus quasi
-					veritatis culpa. <s>Corrupti officiaveroveniam</s> voluptatum officiis?
-			</em>
-		</article>
-		<article class="lorem-block-second">
-			<p class="lorem-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, minima! Reiciendis
-				praesentium dolore deserunt, quisquam quas quo vel minus ut culpa minima officia error alias cum distinctio
-				temporibus dolores aperiam ducimus omnis. Quis itaque temporibus, voluptates quod labore harum nulla quos
-				incidunt fuga dolore! Doloribus quisquam provident veritatis, odio doloremque recusandae consequuntur itaque
-				ea nam dicta, ad, nobis ex. Dolores voluptate beatae doloribus temporibus quae voluptatum libero velit
-				suscipit quam a repellendus, enim praesentium sequi tempora sapiente laudantium officiis impedit adipisci
-				asperiores porro alias? Repellendus optio incidunt quam libero in perferendis rerum eaque assumenda quae
-				harum asperiores atque cupiditate magni explicabo iste quia maxime, molestias voluptate eveniet minus, aut,
-				dicta iusto impedit inventore. Nisi adipisci tempora culpa quis perspiciatis unde recusandae sequi eligendi
-				delectus explicabo porro id quaerat voluptas, aliquam repellendus amet consequuntur, laboriosam ducimus in,
-				ad earum. Dicta rem consequatur tempore, voluptatibus, atque cum doloribus repellat facere aperiam dolor
-				porro quae sequi numquam! Exercitationem officia iusto culpa blanditiis. Laboriosam similique illum ducimus
-				provident quos illo, officiis, ut aut non explicabo autem praesentium id ratione! Rerum vitae quo dicta
-				reiciendis temporibus, amet molestias doloribus enim aperiam dolorem molestiae quidem voluptatum neque.
-				Omnis eveniet voluptatem eos, dolore natus quaerat consectetur aperiam.</p>
-		</article>
-	</main>
 </body>
 
 </html>
