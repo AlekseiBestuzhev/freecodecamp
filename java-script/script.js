@@ -386,3 +386,17 @@ function testElse71(val) {
 	return result71;
 }
 testElse71(4);
+
+
+function testElseIf72(val) {
+	if (val > 10) {
+		return "Greater than 10";
+	}
+	else if (val < 5) {
+		return "Smaller than 5";
+	}
+	else {
+		return "Between 5 and 10";
+	}
+}
+testElseIf72(7);
