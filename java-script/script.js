@@ -373,3 +373,16 @@ function testLogicalOr70(val) {
 }
 const a70 = testLogicalOr70(15);
 console.log(a70);
+
+
+function testElse71(val) {
+	let result71 = "";
+	if (val > 5) {
+		result71 = "Bigger than 5";
+	}
+	else {
+		result71 = "5 or Smaller";
+	}
+	return result71;
+}
+testElse71(4);
