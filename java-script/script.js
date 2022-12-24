@@ -457,3 +457,24 @@ function caseInSwitch75(val) {
 }
 const a75 = caseInSwitch75(1);
 console.log(a75);
+
+
+function switchOfStuff76(val) {
+	let answer = "";
+	switch (val) {
+		case 'a':
+			return 'apple';
+			break;
+		case 'b':
+			return 'bird';
+			break;
+		case 'c':
+			return 'cat';
+			break;
+		default:
+			return 'stuff';
+			break;
+	}
+	return answer;
+}
+switchOfStuff76(1);
