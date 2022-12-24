@@ -527,3 +527,10 @@ function chainToSwitch78(val) {
 }
 const a78 = chainToSwitch78(7);
 console.log(a78);
+
+
+function isLess79(a, b) {
+	return a < b;
+}
+const a79 = isLess79(10, 15);
+console.log(a79);
