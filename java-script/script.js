@@ -463,21 +463,22 @@ function switchOfStuff76(val) {
 	let answer = "";
 	switch (val) {
 		case 'a':
-			return 'apple';
+			answer = 'apple';
 			break;
 		case 'b':
-			return 'bird';
+			answer = 'bird';
 			break;
 		case 'c':
-			return 'cat';
+			answer = 'cat';
 			break;
 		default:
-			return 'stuff';
+			answer = 'stuff';
 			break;
 	}
 	return answer;
 }
-switchOfStuff76(1);
+const a76 = switchOfStuff76('b');
+console.log(a76);
 
 
 function sequentialSizes77(val) {
