@@ -437,7 +437,7 @@ function golfScore(par, strokes) {
 golfScore(5, 4);
 
 
-function caseInSwitch(val) {
+function caseInSwitch75(val) {
 	let answer = "";
 	switch (val) {
 		case 1:
@@ -455,4 +455,5 @@ function caseInSwitch(val) {
 	}
 	return answer;
 }
-caseInSwitch(1);
+const a75 = caseInSwitch75(1);
+console.log(a75);
