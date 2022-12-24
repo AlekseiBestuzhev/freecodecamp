@@ -500,4 +500,5 @@ function sequentialSizes77(val) {
 	}
 	return answer;
 }
-sequentialSizes77(1);
+const a77 = sequentialSizes77(7);
+console.log(a77);
