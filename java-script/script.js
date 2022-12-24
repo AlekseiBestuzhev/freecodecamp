@@ -534,3 +534,11 @@ function isLess79(a, b) {
 }
 const a79 = isLess79(10, 15);
 console.log(a79);
+
+
+function abTest80(a, b) {
+	if (a < 0 || b < 0) return undefined;
+	return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+const a80 = abTest80(-2, 2);
+console.log(a80);
