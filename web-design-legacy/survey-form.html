@@ -15,8 +15,8 @@
 + У вас должно быть краткое объяснение в pэлементе idсdescription
 + У вас должен быть formэлемент idсsurvey-form
 + Внутри элемента формы вам необходимо ввести свое имя в inputполе, которое имеет idот nameи typeотtext
-Внутри элемента формы вам необходимо ввести свой адрес электронной почты в inputполе idсemail
-Если вы введете адрес электронной почты в неправильном формате, вы увидите ошибку проверки HTML5.
++ Внутри элемента формы вам необходимо ввести свой адрес электронной почты в inputполе idсemail
++ Если вы введете адрес электронной почты в неправильном формате, вы увидите ошибку проверки HTML5.
 Внутри формы вы можете ввести число в поле input, имеющееidnumber
 Ввод числа не должен принимать нечисловые символы либо из-за того, что вы не можете их вводить, либо из-за ошибки проверки HTML5 (в зависимости от вашего браузера).
 Если вы введете числа за пределами диапазона ввода чисел, которые определяются атрибутами minи max, вы увидите ошибку проверки HTML5.
@@ -33,7 +33,10 @@
 		<label for="name">Name</label>
 		<input type="text" id="name" placeholder="Enter your name">
 		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="Enter your email adress">
+		<input type="email" id="email" placeholder="Enter your email adress" required>
+		<label for="number">Age</label>
+		<input type="number" id="number" placeholder="Enter your age" required>
+		<button id="submit" type="submit">Submit</button>
 	</form>
 </body>
 

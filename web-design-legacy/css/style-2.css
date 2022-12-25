@@ -3,6 +3,11 @@
 	color: #333;
 }
 
+#description {
+	max-width: 800px;
+	margin: 0 auto 30px;
+}
+
 #survey-form {
 	display: block;
 	max-width: 800px;
@@ -10,6 +15,7 @@
 	background-color: rgb(105, 105, 105);
 	border-radius: 30px;
 	padding: 50px;
+	box-sizing: border-box;
 }
 
 label {
@@ -18,9 +24,12 @@ label {
 }
 
 #name,
-#email {
-	width: 97%;
+#email,
+#number {
+	width: 100%;
 	padding: 10px;
 	display: block;
 	margin-bottom: 30px;
+	border-radius: 7px;
+	box-sizing: border-box;
 }
