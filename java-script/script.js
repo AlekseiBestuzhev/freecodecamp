@@ -554,11 +554,6 @@ function cc81(card) {
 		case 'A':
 			count81 -= 1;
 			break;
-		case 7:
-		case 8:
-		case 9:
-			count81 += 0;
-			break;
 		case 2:
 		case 3:
 		case 4:
