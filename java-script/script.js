@@ -552,14 +552,14 @@ function cc81(card) {
 		case 'Q':
 		case 'K':
 		case 'A':
-			count81 -= 1;
+			count81--;
 			break;
 		case 2:
 		case 3:
 		case 4:
 		case 5:
 		case 6:
-			count81 += 1;
+			count81++;
 			break;
 	}
 	let a81;
@@ -570,3 +570,11 @@ function cc81(card) {
 cc81(2); cc81(3); cc81(4); cc81('K');
 const b81 = cc81('A');
 console.log(b81);
+
+
+const myDog82 = {
+	"name": "Spider",
+	"legs": 8,
+	"tails": 0,
+	"friends": ["Fly", "Bee"]
+};
