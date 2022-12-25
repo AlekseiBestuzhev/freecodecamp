@@ -544,34 +544,34 @@ const a80 = abTest80(-2, 2);
 console.log(a80);
 
 
-let count = 0;
-function cc(card) {
-	// Only change code below this line
+let count81 = 0;
+function cc81(card) {
 	switch (card) {
 		case 10:
 		case 'J':
 		case 'Q':
 		case 'K':
 		case 'A':
-			count -= 1;
+			count81 -= 1;
 			break;
 		case 7:
 		case 8:
 		case 9:
-			count += 0;
+			count81 += 0;
 			break;
 		case 2:
 		case 3:
 		case 4:
 		case 5:
 		case 6:
-			count += 1;
+			count81 += 1;
 			break;
 	}
 	let a81;
-	if (count <= 0) a81 = ' Hold';
+	if (count81 <= 0) a81 = ' Hold';
 	else a81 = ' Bet';
-	return count + a81;
-	// Only change code above this line
+	return count81 + a81;
 }
-cc(2); cc(3); cc(7); cc('K'); cc('A');
+cc81(2); cc81(3); cc81(4); cc81('K');
+const b81 = cc81('A');
+console.log(b81);
