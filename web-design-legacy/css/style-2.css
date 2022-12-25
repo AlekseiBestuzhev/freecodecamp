@@ -12,7 +12,15 @@
 	padding: 50px;
 }
 
-#name {
-	width: 100%;
+label {
+	color: #fff;
+	font-size: 25px;
+}
+
+#name,
+#email {
+	width: 97%;
 	padding: 10px;
+	display: block;
+	margin-bottom: 30px;
 }
