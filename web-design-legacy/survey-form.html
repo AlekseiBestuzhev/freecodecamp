@@ -17,25 +17,31 @@
 + Внутри элемента формы вам необходимо ввести свое имя в inputполе, которое имеет idот nameи typeотtext
 + Внутри элемента формы вам необходимо ввести свой адрес электронной почты в inputполе idсemail
 + Если вы введете адрес электронной почты в неправильном формате, вы увидите ошибку проверки HTML5.
-Внутри формы вы можете ввести число в поле input, имеющееidnumber
-Ввод числа не должен принимать нечисловые символы либо из-за того, что вы не можете их вводить, либо из-за ошибки проверки HTML5 (в зависимости от вашего браузера).
-Если вы введете числа за пределами диапазона ввода чисел, которые определяются атрибутами minи max, вы увидите ошибку проверки HTML5.
-Для полей ввода имени, электронной почты и номера вы можете увидеть соответствующие labelэлементы в форме, которые описывают назначение каждого поля со следующими идентификаторами: id="name-label", id="email-label"иid="number-label"
-Для полей ввода имени, электронной почты и номера вы можете увидеть текст-заполнитель, который дает описание или инструкции для каждого поля.
++ Внутри формы вы можете ввести число в поле input, имеющееidnumber
++ Ввод числа не должен принимать нечисловые символы либо из-за того, что вы не можете их вводить, либо из-за ошибки проверки HTML5 (в зависимости от вашего браузера).
++ Если вы введете числа за пределами диапазона ввода чисел, которые определяются атрибутами minи max, вы увидите ошибку проверки HTML5.
++ Для полей ввода имени, электронной почты и номера вы можете увидеть соответствующие labelэлементы в форме, которые описывают назначение каждого поля со следующими идентификаторами: id="name-label", id="email-label"иid="number-label"
++ Для полей ввода имени, электронной почты и номера вы можете увидеть текст-заполнитель, который дает описание или инструкции для каждого поля.
 Внутри элемента формы у вас должен быть selectраскрывающийся список с одним idиз dropdownдвух вариантов на выбор .
 Внутри элемента формы вы можете выбрать параметр из группы, состоящей как минимум из двух переключателей, сгруппированных с помощью nameатрибута
 Внутри элемента формы вы можете выбрать несколько полей из ряда флажков, каждое из которых должно иметь valueатрибут
 Внутри элемента формы вам представлены textareaдополнительные комментарии
-Внутри элемента формы вам предоставляется кнопка idдля submitотправки всех входных данных. -->
++ Внутри элемента формы вам предоставляется кнопка idдля submitотправки всех входных данных. -->
 	<h1 id="title">freeCodeCamp Survey Form</h1>
 	<p id="description">Thank you for taking the time to help us improve the platform</p>
 	<form action="#" id="survey-form">
-		<label for="name">Name</label>
-		<input type="text" id="name" placeholder="Enter your name">
-		<label for="email">Email</label>
-		<input type="email" id="email" placeholder="Enter your email adress" required>
-		<label for="number">Age</label>
-		<input type="number" id="number" placeholder="Enter your age" required>
+		<label for="name" id="name-label">Name</label>
+		<input type="text" id="name" placeholder="Enter your name" required class="look">
+		<label for="email" id="email-label">Email</label>
+		<input type="email" id="email" placeholder="Enter your email adress" required class="look">
+		<label for="number" id="number-label">Age</label>
+		<input type="number" id="number" placeholder="Enter your age" min="18" max="45" required class="look">
+		<label for="dropdown" id="dropdown-label">Course</label>
+		<select name="dropdown" id="dropdown" class="look">
+			<option value="1">One</option>
+			<option value="2">Two</option>
+			<option value="3">Three</option>
+		</select>
 		<button id="submit" type="submit">Submit</button>
 	</form>
 </body>

@@ -23,9 +23,7 @@ label {
 	font-size: 25px;
 }
 
-#name,
-#email,
-#number {
+.look {
 	width: 100%;
 	padding: 10px;
 	display: block;
