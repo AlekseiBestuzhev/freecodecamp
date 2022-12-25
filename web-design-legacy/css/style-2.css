@@ -31,3 +31,18 @@ label {
 	border-radius: 7px;
 	box-sizing: border-box;
 }
+
+.sub-title {
+	color: #fff;
+	font-size: 25px;
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+.rbtn {
+	font-size: 18px;
+}
+
+.form-group {
+	margin-bottom: 30px;
+}
