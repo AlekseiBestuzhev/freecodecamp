@@ -16,16 +16,16 @@
 		+ Внутри #headerэлемента вы можете увидеть navэлемент с соответствующимid="nav-bar"
 		+ Вы можете увидеть как минимум три интерактивных элемента внутри navэлемента, каждый из которых имеет классnav-link
 		+ При нажатии .nav-linkкнопки в navэлементе вы попадаете в соответствующий раздел целевой страницы.
-		Вы можете посмотреть встроенное видео о продукте с помощьюid="video"
+		+ Вы можете посмотреть встроенное видео о продукте с помощьюid="video"
 		На вашей целевой странице есть formэлемент с соответствующимid="form"
 		В форме есть inputполе id="email", где вы можете ввести адрес электронной почты
 		Поле #emailввода должно иметь текст-заполнитель, чтобы пользователи знали, для чего предназначено поле.
 		В #emailполе ввода используется проверка HTML5, чтобы подтвердить, что введенный текст является адресом электронной почты.
 		В форме есть submit inputс соответствующимid="submit"
 		Когда вы щелкаете #submitэлемент, электронное письмо отправляется на статическую страницу (используйте этот фиктивный URL-адрес: https://www.freecodecamp.com/email-submit)
-		Панель навигации всегда должна быть в верхней части окна просмотра.
-		На целевой странице продукта должен быть хотя бы один медиа-запрос.
-		Ваша целевая страница продукта должна использовать CSS flexbox хотя бы один раз.
+		+ Панель навигации всегда должна быть в верхней части окна просмотра.
+		+На целевой странице продукта должен быть хотя бы один медиа-запрос.
+		+ Ваша целевая страница продукта должна использовать CSS flexbox хотя бы один раз.
 </div> -->
 	<header id="header" class="header">
 		<div class='header__container'>
@@ -40,7 +40,7 @@
 	</header>
 	<main class="main">
 		<img src="https://i.pinimg.com/originals/ef/8b/51/ef8b51455131b34cf2dcdde3ac9c5078.jpg" alt="Image" id="ips-img">
-		<div class="about-block">
+		<div class="about-block" id="about-block">
 			<div class='about-block__container'>
 				<h1>We are Lorem</h1>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dolore modi voluptatum, natus magni
@@ -78,6 +78,13 @@
 					praesentium unde quibusdam.</p>
 			</div>
 		</div>
+		<div class="video-block" id="video-block">
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/CmzKQ3PSrow" title="YouTube video player"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen></iframe>
+		</div>
+
 	</main>
 </body>
 
