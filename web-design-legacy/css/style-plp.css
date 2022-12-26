@@ -59,7 +59,35 @@ h1 {
 
 iframe {
 	display: block;
+	margin: 0 auto 70px;
+}
+
+form {
+	width: 400px;
+	padding: 50px;
+	border-radius: 20px;
+	background-color: #333;
 	margin: 0 auto;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+input {
+	width: 100%;
+	display: block;
+	padding: 10px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 0;
+}
+
+[type='submit'] {
+	cursor: pointer;
+	background-color: #ff9940;
+	width: auto;
 }
 
 @media (max-width: 700px) {
