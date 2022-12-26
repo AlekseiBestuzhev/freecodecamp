@@ -1,5 +1,9 @@
 body {
-	background-color: rgb(235, 235, 235);
+	background-color: #1f2326;
+	color: #fff;
+	margin: 0;
+	line-height: 2;
+	font-family: sans-serif;
 }
 [class*='__container'] {
 	max-width: 1000px;
@@ -7,7 +11,7 @@ body {
 }
 
 #header {
-	background-color: #fff;
+	background-color: #c0c4c7d5;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -37,6 +41,10 @@ body {
 	font-weight: 700;
 }
 
+#ips-img {
+	height: auto;
+	width: 100%;
+}
 .about-block {
 	padding-top: 70px;
 }
