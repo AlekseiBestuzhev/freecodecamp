@@ -578,3 +578,13 @@ const myDog82 = {
 	"tails": 0,
 	"friends": ["Fly", "Bee"]
 };
+
+
+const testObj84 = {
+	"hat": "ballcap",
+	"shirt": "jersey",
+	"shoes": "cleats"
+};
+const hatValue84 = testObj84.hat;
+const shirtValue84 = testObj84.shirt;
+console.log(hatValue84, shirtValue84);
