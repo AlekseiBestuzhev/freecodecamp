@@ -588,3 +588,13 @@ const testObj84 = {
 const hatValue84 = testObj84.hat;
 const shirtValue84 = testObj84.shirt;
 console.log(hatValue84, shirtValue84);
+
+
+const testObj85 = {
+	"an entree": "hamburger",
+	"my side": "veggies",
+	"the drink": "water"
+};
+const entreeValue85 = testObj85["an entree"];
+const drinkValue85 = testObj85["the drink"];
+console.log(entreeValue85, drinkValue85);
