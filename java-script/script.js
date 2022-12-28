@@ -598,3 +598,13 @@ const testObj85 = {
 const entreeValue85 = testObj85["an entree"];
 const drinkValue85 = testObj85["the drink"];
 console.log(entreeValue85, drinkValue85);
+
+
+const testObj = {
+	12: "Namath",
+	16: "Montana",
+	19: "Unitas"
+};
+const playerNumber = 16;
+const player = testObj[playerNumber];
+console.log(player);
