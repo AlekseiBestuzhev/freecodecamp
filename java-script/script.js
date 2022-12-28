@@ -600,11 +600,11 @@ const drinkValue85 = testObj85["the drink"];
 console.log(entreeValue85, drinkValue85);
 
 
-const testObj = {
+const testObj86 = {
 	12: "Namath",
 	16: "Montana",
 	19: "Unitas"
 };
-const playerNumber = 16;
-const player = testObj[playerNumber];
-console.log(player);
+const playerNumber86 = 16;
+const player86 = testObj86[playerNumber86];
+console.log(player86);
