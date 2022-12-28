@@ -12,8 +12,8 @@
 <body>
 	<!-- <div>
 		+   Вы можете увидеть mainэлемент с соответствующим id="main-doc", который содержит основное содержимое страницы (техническая документация)
-		Внутри #main-docэлемента вы можете увидеть несколько sectionэлементов, каждый из которых имеет класс main-section. Должно быть не менее пяти
-		Первым элементом внутри каждого .main-sectionдолжен быть headerэлемент, содержащий текст, описывающий тему этого раздела.
+		+   Внутри #main-docэлемента вы можете увидеть несколько sectionэлементов, каждый из которых имеет класс main-section. Должно быть не менее пяти
+		+   Первым элементом внутри каждого .main-sectionдолжен быть headerэлемент, содержащий текст, описывающий тему этого раздела.
 		Каждый sectionэлемент с классом main-sectionтакже должен иметь значение id, соответствующее тексту каждого элемента, headerсодержащегося в нем. Любые пробелы должны быть заменены символами подчеркивания (например, раздел, содержащий заголовок «JavaScript и Java», должен иметь соответствующий id="JavaScript_and_Java")
 		Элементы .main-sectionдолжны содержать не менее десяти pэлементов (не каждый)
 		Элементы .main-sectionдолжны содержать не менее пяти codeэлементов (не каждый)
@@ -27,7 +27,27 @@
 		На устройствах обычного размера (ноутбуки, настольные компьютеры) элемент с id="navbar"должен отображаться в левой части экрана и всегда должен быть виден пользователю.
 		В вашей технической документации должен использоваться хотя бы один медиа-запрос.</div> -->
 	<main id="main-doc">
-
+		<section class="main-section">
+			<header>Introduction</header>
+			<article>
+				<p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
+					language. Inside a host environment (for example, a web browser), JavaScript can be connected to the
+					objects of its environment to provide programmatic control over them.</p>
+				<p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of
+					language elements such as operators, control structures, and statements. Core JavaScript can be extended
+					for a variety of purposes by supplementing it with additional objects; for example:</p>
+				<ul>
+					<li>Client-side JavaScript extends the core language by supplying objects to control a browser and its
+						Document Object Model (DOM). For example, client-side extensions allow an application to place
+						elements on an HTML form and respond to user events such as mouse clicks, form input, and page
+						navigation.</li>
+					<li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript
+						on a server. For example, server-side extensions allow an application to communicate with a database,
+						provide continuity of information from one invocation to another of the application, or perform file
+						manipulations on a server.</li>
+				</ul>
+			</article>
+		</section>
 	</main>
 </body>
 
