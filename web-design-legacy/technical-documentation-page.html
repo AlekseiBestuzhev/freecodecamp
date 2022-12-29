@@ -19,9 +19,9 @@
 		!   Элементы .main-sectionдолжны содержать не менее пяти code элементов (не каждый)
 		+   Элементы .main-sectionдолжны содержать не менее пяти li элементов (не каждый)
 		+   Вы можете увидеть navэлемент с соответствующим id="navbar"
-		Элемент navbar должен содержать один headerэлемент, содержащий текст, описывающий тему технической документации.
+		+   Элемент navbar должен содержать один headerэлемент, содержащий текст, описывающий тему технической документации.
 		Кроме того, панель навигации должна содержать aэлементы link() класса nav-link. Должен быть один для каждого элемента с классомmain-section
-		Элемент должен headerрасполагаться #navbarперед любыми aэлементами link ( ) на панели навигации.
+		+   Элемент должен headerрасполагаться #navbarперед любыми aэлементами link ( ) на панели навигации.
 		Каждый элемент с классом nav-linkдолжен содержать текст, соответствующий headerтексту внутри каждого из них section(например, если у вас есть раздел/заголовок «Привет, мир», на панели навигации должен быть элемент, содержащий текст «Привет, мир»)
 		Когда вы щелкаете элемент панели навигации, страница должна перейти к соответствующему разделу #main-docэлемента (например, если вы щелкнете .nav-linkэлемент, содержащий текст «Привет, мир», страница перейдет к sectionэлементу с этим идентификатором и содержит соответствующий заголовок)
 		На устройствах обычного размера (ноутбуки, настольные компьютеры) элемент с id="navbar"должен отображаться в левой части экрана и всегда должен быть виден пользователю.
@@ -49,6 +49,15 @@
 						provide continuity of information from one invocation to another of the application, or perform file
 						manipulations on a server.</li>
 				</ul>
+				<p>Firs function:</p>
+				<pre>
+<code>
+	function greetMe(yourName) { 
+	   alert("Hello " + yourName); 
+	}
+	greetMe("World");
+</code>
+</pre>
 			</article>
 		</section>
 		<section class="main-section" id="what_you_should_already_know">
@@ -93,6 +102,30 @@
 				<p>You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode
 					escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and
 					_name.</p>
+				<p>Variable:</p>
+				<pre>
+<code>
+	var x = 42
+</code>
+</pre>
+				<p>If variable already exist:</p>
+				<pre>
+<code>
+	x = 42
+</code>
+</pre>
+				<p>It's new way to creating variables:</p>
+				<pre>
+<code>
+	let x = 42
+</code>
+</pre>
+				<p>That's doing for the variable do not change:</p>
+				<pre>
+<code>
+	const x = 42
+</code>
+</pre>
 			</article>
 		</section>
 		<section class="main-section" id="global_variables">
