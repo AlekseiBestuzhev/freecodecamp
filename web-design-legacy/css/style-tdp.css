@@ -41,3 +41,18 @@ code {
 	padding: 0 55px 15px 0;
 	background-color: rgb(240, 240, 240);
 }
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+}
+
+li a {
+	display: block;
+	text-decoration: none;
+	padding: 20px;
+}
+
