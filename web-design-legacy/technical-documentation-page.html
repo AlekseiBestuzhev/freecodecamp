@@ -12,13 +12,13 @@
 <body>
 	<!-- <div>
 		+   Вы можете увидеть mainэлемент с соответствующим id="main-doc", который содержит основное содержимое страницы (техническая документация)
-		+   Внутри #main-docэлемента вы можете увидеть несколько sectionэлементов, каждый из которых имеет класс main-section. Должно быть не менее пяти
+		+   Внутри #main-docэлемента вы можете увидеть несколько sectionэлементов, каждый из которых имеет класс main-section. Должно быть нe менее пяти
 		+   Первым элементом внутри каждого .main-sectionдолжен быть headerэлемент, содержащий текст, описывающий тему этого раздела.
-		Каждый sectionэлемент с классом main-sectionтакже должен иметь значение id, соответствующее тексту каждого элемента, headerсодержащегося в нем. Любые пробелы должны быть заменены символами подчеркивания (например, раздел, содержащий заголовок «JavaScript и Java», должен иметь соответствующий id="JavaScript_and_Java")
-		Элементы .main-sectionдолжны содержать не менее десяти pэлементов (не каждый)
-		Элементы .main-sectionдолжны содержать не менее пяти codeэлементов (не каждый)
-		Элементы .main-sectionдолжны содержать не менее пяти liэлементов (не каждый)
-		Вы можете увидеть navэлемент с соответствующимid="navbar"
+		+   Каждый sectionэлемент с классом main-sectionтакже должен иметь значение id, соответствующее тексту каждого элемента, headerсодержащегося в нем. Любые пробелы должны быть заменены символами подчеркивания (например, раздел, содержащий заголовок «JavaScript и Java», должен иметь соответствующий id="JavaScript_and_Java")
+		+   Элементы .main-sectionдолжны содержать не менее десяти p элементов (не каждый)
+		!   Элементы .main-sectionдолжны содержать не менее пяти code элементов (не каждый)
+		+   Элементы .main-sectionдолжны содержать не менее пяти li элементов (не каждый)
+		+   Вы можете увидеть navэлемент с соответствующим id="navbar"
 		Элемент navbar должен содержать один headerэлемент, содержащий текст, описывающий тему технической документации.
 		Кроме того, панель навигации должна содержать aэлементы link() класса nav-link. Должен быть один для каждого элемента с классомmain-section
 		Элемент должен headerрасполагаться #navbarперед любыми aэлементами link ( ) на панели навигации.
@@ -27,7 +27,7 @@
 		На устройствах обычного размера (ноутбуки, настольные компьютеры) элемент с id="navbar"должен отображаться в левой части экрана и всегда должен быть виден пользователю.
 		В вашей технической документации должен использоваться хотя бы один медиа-запрос.</div> -->
 	<main id="main-doc">
-		<section class="main-section">
+		<section class="main-section" id="introduction">
 			<header>Introduction</header>
 			<article>
 				<p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight
@@ -48,7 +48,7 @@
 				</ul>
 			</article>
 		</section>
-		<section class="main-section">
+		<section class="main-section" id="what_you_should_already_know">
 			<header>What you should already know</header>
 			<article>
 				<p>This guide assumes you have the following basic background:</p>
@@ -60,7 +60,7 @@
 				</ul>
 			</article>
 		</section>
-		<section class="main-section">
+		<section class="main-section" id="javascript_and_java">
 			<header>JavaScript and Java</header>
 			<article>
 				<p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript
@@ -79,7 +79,7 @@
 					are not explicitly typed.</p>
 			</article>
 		</section>
-		<section class="main-section">
+		<section class="main-section" id="variables">
 			<header>Variables</header>
 			<article>
 				<p>You use variables as symbolic names for values in your application. The names of variables, called
@@ -92,7 +92,7 @@
 					_name.</p>
 			</article>
 		</section>
-		<section class="main-section">
+		<section class="main-section" id="global_variables">
 			<header>Global variables</header>
 			<article>
 				<p>Global variables are in fact properties of the global object. In web pages the global object is window,
