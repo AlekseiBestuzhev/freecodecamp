@@ -44,6 +44,8 @@ code {
 
 nav ul {
 	padding: 0;
+	overflow-y: auto;
+	height: 80%;
 }
 
 nav ul li {
@@ -53,6 +55,11 @@ nav ul li {
 li a {
 	display: block;
 	text-decoration: none;
-	padding: 20px;
+	padding: 30px;
+	color: #333;
+	transition: 0.5s;
 }
 
+li a:hover {
+	background-color: rgb(195, 197, 207);
+}
