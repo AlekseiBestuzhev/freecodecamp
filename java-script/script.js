@@ -617,3 +617,5 @@ const myDog87 = {
 	"friends": ["freeCodeCamp Campers"]
 };
 myDog87.name = 'Happy Coder';
+const a87 = myDog87.name;
+console.log(a87);
