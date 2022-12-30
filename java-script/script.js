@@ -608,3 +608,12 @@ const testObj86 = {
 const playerNumber86 = 16;
 const player86 = testObj86[playerNumber86];
 console.log(player86);
+
+
+const myDog87 = {
+	"name": "Coder",
+	"legs": 4,
+	"tails": 1,
+	"friends": ["freeCodeCamp Campers"]
+};
+myDog87.name = 'Happy Coder';
