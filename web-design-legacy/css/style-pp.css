@@ -42,5 +42,24 @@ h2 {
 }
 
 #welcome-section {
-	padding: 100px 0 0;
+	padding: 50vh 0 0;
+	font-family: monospace;
+	height: 100vh;
+}
+
+.welcome-section__container {
+	transform: translateY(-50%);
+}
+
+h1 {
+	font-size: 45px;
+	margin: 0 0 20px;
+}
+
+p {
+	margin: 0;
+}
+
+.welcome-section__container p {
+	font-size: 25px;
 }
