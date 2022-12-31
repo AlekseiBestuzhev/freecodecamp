@@ -7,6 +7,7 @@ body {
 [class*='__container'] {
 	margin: 0 auto;
 	max-width: 1000px;
+	padding: 0 20px;
 }
 
 .navbar {
@@ -66,12 +67,20 @@ p {
 	font-size: 25px;
 }
 
+.projects__container {
+	max-width: 1040px;
+}
+
 .projects__header {
 	font-size: 25px;
 }
 
 .image {
 	width: 100%;
+}
+
+.projects__items {
+	margin: 0 -20px;
 }
 
 .project__item {
