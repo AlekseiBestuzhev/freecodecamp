@@ -116,3 +116,9 @@ a p {
 	display: inline-block;
 	max-width: 100px;
 }
+
+@media (max-width: 500px) {
+	#navbar {
+		display: none;
+	}
+}
