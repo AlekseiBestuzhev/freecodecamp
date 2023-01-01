@@ -104,3 +104,15 @@ a p {
 	color: #fff;
 	text-decoration: none;
 }
+
+.end {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	align-items: center;
+}
+
+.link-to-git {
+	display: inline-block;
+	max-width: 100px;
+}
