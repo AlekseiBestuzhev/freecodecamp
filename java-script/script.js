@@ -640,3 +640,19 @@ const myDog89 = {
 };
 delete myDog89.tails;
 console.log(myDog89);
+
+
+function phoneticLookup(val) {
+	let result = "";
+	let lookup = {
+		"alpha": "Adams",
+		"bravo": "Boston",
+		"charlie": "Chicago",
+		"delta": "Denver",
+		"echo": "Easy",
+		"foxtrot": "Frank"
+	};
+	result = lookup[val];
+	return result;
+}
+phoneticLookup("charlie");
