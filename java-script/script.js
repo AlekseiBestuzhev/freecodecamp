@@ -629,3 +629,13 @@ const myDog88 = {
 };
 myDog88.bark = 'Woof';
 console.log(myDog88.bark);
+
+
+const myDog = {
+	"name": "Happy Coder",
+	"legs": 4,
+	"tails": 1,
+	"friends": ["freeCodeCamp Campers"],
+	"bark": "woof"
+};
+delete myDog.tails;
