@@ -642,7 +642,7 @@ delete myDog89.tails;
 console.log(myDog89);
 
 
-function phoneticLookup(val) {
+function phoneticLookup90(val) {
 	let result = "";
 	let lookup = {
 		"alpha": "Adams",
@@ -655,4 +655,5 @@ function phoneticLookup(val) {
 	result = lookup[val];
 	return result;
 }
-phoneticLookup("charlie");
+const a90 = phoneticLookup90("charlie");
+console.log(a90);
