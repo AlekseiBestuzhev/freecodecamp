@@ -621,10 +621,11 @@ const a87 = myDog87.name;
 console.log(a87);
 
 
-const myDog = {
+const myDog88 = {
 	"name": "Happy Coder",
 	"legs": 4,
 	"tails": 1,
 	"friends": ["freeCodeCamp Campers"]
 };
-myDog.bark = 'Woof';
+myDog88.bark = 'Woof';
+console.log(myDog88.bark);
